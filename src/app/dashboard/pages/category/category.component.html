@@ -1,0 +1,12 @@
+<div class="container">
+    <form action="" class="row gy-3" (ngSubmit)="handleSubmit()">
+        <div class="col-6">
+            <input type="text" class="form-control" placeholder="Category Name"
+            [(ngModel)]="categoryName" name="categoryName">
+        </div>
+        
+        <div class="col-12">
+            <button class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+</div>
